@@ -1,3 +1,6 @@
+example yaml configuration Home assistant
+
+
 - platform: mqtt
     name: "Temperatuur_livingroom"
     state_topic: "SHT30/livingroom"
