@@ -1,0 +1,18 @@
+- platform: mqtt
+    name: "Temperatuur_livingroom"
+    state_topic: "SHT30/livingroom"
+    unit_of_measurement: "°C"
+    value_template: "{{ value_json.t| round(2)}}"
+
+  - platform: mqtt
+    name: "luchtvochtigheid_livingroom"
+    state_topic: "SHT30/livingroom"
+    unit_of_measurement: "%"
+    value_template: "{{ value_json.h| round(2)}}"
+    
+  - platform: mqtt
+    name: "CO2_livingroom"
+    state_topic: "SHT30/livingroom"
+    unit_of_measurement: "ppm"
+    value_template: "{{ value_json.g| round(2)}}"
+
