@@ -1,7 +1,7 @@
 # AZenvy-on-Home-Assistant
 
 The integration the AZ-Envy sensor in Home Assistant. The AZ-Envy sensor is based on a ESP8266 Arduino board with 3 sensors. The sensors are MQ-2 Gas sensor MT-30 temperature and humidity.
-The software for the progamming the AZenvy i found the website in there blog.
+The software for the progamming the AZenvy i found on the website in the blogs.
 
 
 
