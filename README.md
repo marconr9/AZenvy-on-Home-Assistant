@@ -9,7 +9,7 @@ Intergration of the AZenvy sensor in Home Assistant.
 
 requirements
 -Home Assistant installed
--MQQT Mosquitto broker intergration installed in Home Assistant.
+-MQTT Mosquitto broker intergration installed in Home Assistant.
 
 In Arduino IDE
 
